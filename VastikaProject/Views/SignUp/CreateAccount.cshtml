@@ -1,0 +1,84 @@
+@{
+	Layout = null;
+}
+
+
+@model SignUpModel
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Musicify - login or signup</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/Vastika_Project.styles.css" asp-append-version="true" />
+	<link href="~/css/VastikaTest.css" rel="stylesheet" asp-append-version="true" />
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row justify-content-center mt-4 ">
+			<div class="col-sm-12 col-md-6" style="background-color: white;">
+				<form method="post" asp-action="CreateAccount" class="border d-flex row">
+					<h1>Sign UP</h1>
+					<div class="mb-1 col-6">
+						<label for="signUpFirstName" class="form-label"></label>
+						<input type="text" placeholder="First Name" asp-for="SignUpFirstName" class="form-control" id="signUpFirstName" required>
+						<span asp-validation-for="SignUpFirstName" class="text-danger"></span>
+					</div>
+
+					<div class="mb-1 col-6">
+						<label for="signUpLastName" class="form-label"></label>
+						<input type="text" placeholder="Last Name" asp-for="SignUpLastName" class="form-control" id="signUpLastName" required>
+						<span asp-validation-for="SignUpLastName" class="text-danger"></span>
+					</div>
+
+					<div class="mb-2 col-12 d-flex-column">
+						<label for="signUpUsername" class="form-label"></label>
+						<input type="email" placeholder="Username" asp-for="SignUpUsername" class="form-control" id="signUpUsername" required>
+						<span asp-validation-for="SignUpUsername" class="text-danger"></span>
+					</div>
+
+					<div class="mb-2 col-12 d-flex-column">
+						<label for="signUpPassword" class="form-label"></label>
+						<input type="password" placeholder="Password" asp-for="SignUpPassword" class="form-control" id="signUpPassword" required>
+						<span asp-validation-for="SignUpPassword" class="text-danger"></span>
+					</div>
+
+					<div class="col-12 mb-4">
+						<div class="form-floating">
+							<input type="date" asp-for="SignUpDOB" class="form-control" id="signUpDOB" required />
+							<label for="dob">Date of Birth</label>
+						</div>
+					</div>
+					<!--Date of birth End-->
+					<!--Gender Selection start-->
+					<div class="col-12 mb-4">
+						<div class="form-floating">
+							<select class="form-select" id="signUpGender" aria-label="Floating label select example">
+								<option>Male</option>
+								<option>Female</option>
+								<option>Other</option>
+
+
+							</select>
+						</div>
+					</div>
+
+
+					<div class="col-12 form-check mb-4 align-items-center">
+						<input type="checkbox" class="form-check-input" id="terms" required />
+						<label class="form-check-label" for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+					</div>
+
+					<div class="modal-footer">
+						<a href="@Url.Action("SignIn", "Login")" class="btn btn-secondary">Cancel</a>
+						<button type="submit" class="btn btn-primary">Register</button>
+					</div>					
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
