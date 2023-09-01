@@ -1,18 +1,32 @@
-@model TModel
+@model List<CustomersModel>
 
-@{
-    Layout = null;
-}
 
-<!DOCTYPE html>
+<div class="container">
+    <h2 class="text-center">Customer List</h2>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+    <a class="btn btn-primary" asp-action="Create">Add New</a>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th> Id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+          
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+             
+                <td><a class="btn btn-success" asp-action="Update" asp-route-id="@item.Id">Update</a> | <a class="btn btn-danger">Delete</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
 </div>
-</body>
-</html>

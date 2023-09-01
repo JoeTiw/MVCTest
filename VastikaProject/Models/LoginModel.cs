@@ -9,7 +9,7 @@ namespace VastikaProject.Models
         // You can also do [Required(Error message = "hdhdhdhdhd")]
         // Fpr phonr nunbrt [Phone] -> [Phone.maxLength]
 
-        [Required]
+        [Required, EmailAddress]
         public  string LoginUsername { get; set; }
 
         [Required]

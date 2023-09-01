@@ -1,0 +1,12 @@
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/bin/Debug/net6.0/VastikaProject.Entities.deps.json
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/bin/Debug/net6.0/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/bin/Debug/net6.0/ref/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/bin/Debug/net6.0/VastikaProject.Entities.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.csproj.AssemblyReference.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.AssemblyInfoInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.AssemblyInfo.cs
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.csproj.CoreCompileInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/ref/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/obj/Debug/net6.0/VastikaProject.Entities.pdb

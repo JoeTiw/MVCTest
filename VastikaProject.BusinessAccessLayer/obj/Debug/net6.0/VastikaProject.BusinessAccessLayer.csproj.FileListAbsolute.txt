@@ -1,0 +1,17 @@
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.BusinessAccessLayer.deps.json
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.BusinessAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/ref/VastikaProject.BusinessAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.BusinessAccessLayer.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.DataAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.DataAccessLayer.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/bin/Debug/net6.0/VastikaProject.Entities.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.csproj.AssemblyReference.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.AssemblyInfoInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.AssemblyInfo.cs
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.csproj.CoreCompileInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.csproj.CopyComplete
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/ref/VastikaProject.BusinessAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.BusinessAccessLayer/obj/Debug/net6.0/VastikaProject.BusinessAccessLayer.pdb

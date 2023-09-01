@@ -737,6 +737,16 @@
             "rid": "win"
           }
         }
+      },
+      "VastikaProject.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VastikaProject.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VastikaProject.Entities.dll": {}
+        }
       }
     }
   },
@@ -1902,12 +1912,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "VastikaProject.Entities/1.0.0": {
+      "type": "project",
+      "path": "../VastikaProject.Entities/VastikaProject.Entities.csproj",
+      "msbuildProject": "../VastikaProject.Entities/VastikaProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.21",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21",
+      "VastikaProject.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1934,7 +1950,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/VastikaProject.Entities.csproj": {
+              "projectPath": "/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.Entities/VastikaProject.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

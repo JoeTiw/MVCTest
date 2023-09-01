@@ -1,15 +1,26 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using VastikaProject;
-using VastikaProject.Data;
+using VastikaProject.BusinessAccessLayer.Interfaces;
+using VastikaProject.BusinessAccessLayer.Services;
+using VastikaProject.DataAccessLayer.DataContext;
+using VastikaProject.DataAccessLayer.Interfaces;
+using VastikaProject.DataAccessLayer.Services;
+
+
+
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<VastikaProjectContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("VastikaProjectContext") ?? throw new InvalidOperationException("Connection string 'VastikaProjectContext' not found.")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DbDataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+builder.Services.AddTransient<ILoginRepo, LoginRepo>();
+builder.Services.AddTransient<ILoginService, LoginService>();
+builder.Services.AddTransient<ICustomerRepo, CustomerRepo>();
+builder.Services.AddTransient<ICustomerService, CustomerService>();
 
 var app = builder.Build();
 

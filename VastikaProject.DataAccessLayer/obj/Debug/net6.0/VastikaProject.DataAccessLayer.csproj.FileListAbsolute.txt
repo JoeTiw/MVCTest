@@ -1,0 +1,15 @@
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/VastikaProject.DataAccessLayer.deps.json
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/VastikaProject.DataAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/ref/VastikaProject.DataAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/VastikaProject.DataAccessLayer.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/VastikaProject.Entities.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/bin/Debug/net6.0/VastikaProject.Entities.pdb
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.csproj.AssemblyReference.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.AssemblyInfoInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.AssemblyInfo.cs
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.csproj.CopyComplete
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/ref/VastikaProject.DataAccessLayer.dll
+/Users/bhupintiwari/RiderProjects/VastikaProject/VastikaProject.DataAccessLayer/obj/Debug/net6.0/VastikaProject.DataAccessLayer.pdb
