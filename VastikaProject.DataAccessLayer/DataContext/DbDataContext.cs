@@ -14,13 +14,4 @@ public class DbDataContext : DbContext
 
     public DbSet<OrderItem> OrderItems { get; set; }
     
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        base.OnModelCreating(modelBuilder);
-
-        modelBuilder.Entity<Customer>(entity =>
-        {
-            entity.Property(e => e.Id).ValueGeneratedOnAdd();
-        });
-    }
 }

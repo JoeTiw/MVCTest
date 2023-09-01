@@ -16,8 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DbDataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"))
-        .LogTo(Console.WriteLine, LogLevel.Information));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 builder.Services.AddTransient<ILoginRepo, LoginRepo>();
 builder.Services.AddTransient<ILoginService, LoginService>();
 builder.Services.AddTransient<ICustomerRepo, CustomerRepo>();

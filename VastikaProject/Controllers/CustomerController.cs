@@ -36,10 +36,10 @@ public class CustomerController : Controller
     
 
     
-    [HttpPost]
+  
     public IActionResult Create(CustomersModel model)
     {
-        model.Id = 0;
+       
         if (ModelState.IsValid)
         {
             var customer = new Customer()
@@ -52,11 +52,15 @@ public class CustomerController : Controller
             var result=  _customerService.AddCustomer(customer);
             if (result)
                 return RedirectToAction("Index");
-   
+    
         }
-
+    
         return View();
     }
+
+
+    
+    
     
     [HttpGet]
     public IActionResult Create()
