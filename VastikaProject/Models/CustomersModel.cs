@@ -5,7 +5,7 @@ namespace VastikaProject.Models;
 public class CustomersModel
 {
  
-    public int Id{ get; set; }
+    public int? Id{ get; set; }
     
     
     [Required(ErrorMessage = "First Name is required.")]
