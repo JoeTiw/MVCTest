@@ -39,12 +39,12 @@ public class CustomerController : Controller
     [HttpPost]
     public IActionResult Create(CustomersModel model)
     {
-        model.Id = 12;
+        model.Id = 0;
         if (ModelState.IsValid)
         {
             var customer = new Customer()
             {
-                    Id = model.Id,
+                    //Id = model.Id,
                     FirstName = model.FirstName,
                     LastName = model.LastName
                
