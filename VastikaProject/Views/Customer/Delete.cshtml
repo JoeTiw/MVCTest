@@ -1,0 +1,19 @@
+@model CustomersModel
+
+<div class="container">
+    <h2 class="text-center">Delete Customer</h2>
+    <p>Are you sure you want to delete the following customer?</p>
+    <dl>
+        <dt>ID</dt>
+        <dd>@Model.Id</dd>
+        <dt>First Name</dt>
+        <dd>@Model.FirstName</dd>
+        <dt>Last Name</dt>
+        <dd>@Model.LastName</dd>
+    </dl>
+    <form method="post" asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
