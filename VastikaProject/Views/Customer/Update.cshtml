@@ -1,4 +1,4 @@
-@model VastikaProject.Entities.Customer
+@model CustomersModel
 @*
 
 *@
@@ -6,11 +6,11 @@
 <div class="container">
     <h2 class="text-center">Update Customer</h2>
 
-    <form method="post" action="Update">
+    <form method="post" asp-controller="Customer" asp-action="Update">
         <input type="hidden" asp-for="Id"/>
         <div class="form-group">
             <label>First Name</label>
-            <input type="text" class="form-control" asp-for="FirstName" />
+            <input type="text" class="form-control" asp-for="FirstName"/>
         </div>
         <div class="form-group">
             <label>Last Name</label>

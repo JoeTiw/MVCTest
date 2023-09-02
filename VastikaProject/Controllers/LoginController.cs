@@ -26,6 +26,7 @@ namespace VastikaProject.Controllers
                 var isValid = _loginService.Login(loginModel.LoginUsername, loginModel.LoginPassword);
                 if (isValid)
                 {
+                    HttpContext.Session.SetString("SessionKey", loginModel.LoginUsername);
                     return RedirectToAction("Index", "Home");
                 }
             }
@@ -35,6 +36,7 @@ namespace VastikaProject.Controllers
 
         public IActionResult SignOut()
         {
+            HttpContext.Session.Clear();
             return RedirectToAction("SignIn");
         }
     }
